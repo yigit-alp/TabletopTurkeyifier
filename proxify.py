@@ -11,7 +11,8 @@ class Proxify:
         # cubeupload was banned too but they seem to be unbanned
         self.proxies = {
             "https:": "http:",
-            "http://pastebin.com": "http://pastebinp.com",
+            "http://pastebin.com/raw.php?i=": "http://pastebinp.com/raw/",
+            "http://pastebin.com/raw/": "http://pastebinp.com/raw/",
             "http://imgur.com": "http://0imgur.com",
             "http://i.imgur.com": "http://i.0imgur.com",
         }
